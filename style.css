@@ -89,17 +89,17 @@ li{
 
 .footer-info{
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-   
-
-   
+    grid-template-columns:55px 1fr 55px;  /* هنا تقسمي السطر لثلاثه اقسام  */
+  justify-content: center;
    
 }
 
 .important{
-    padding-top: 40PX;
+    /* padding-top: 40PX;  */
+    /* مانحتاج بادنج ابدا */
     font-weight: 300;
     font-size: 15px;
+    margin: auto 3px;   /*  عشان نخلي الكلام يجي وسط */
 }
 
 .important p{
@@ -113,10 +113,10 @@ li{
 }
 
 img{
-    
+    width: 100%; /* لازم تخلي الصوره ع قياس الكولوم اللي عطيتييها اياه ٥٥بكسل  */
     border-radius: 100px;
-
-   
+margin-right: 5px;
+   /* وبعدييها عن الكلام شوي بهالطريقه */
 }
 .min{
     display: grid;
@@ -124,6 +124,8 @@ img{
 }
 
 
-
-
+.time{
+    font-size: 12px;
+    font-weight: 300;
+}
 
